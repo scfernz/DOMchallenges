@@ -1,0 +1,14 @@
+.jumbotron {
+  text-align: center;
+}
+
+#output {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: purple;
+  color: yellow;
+}

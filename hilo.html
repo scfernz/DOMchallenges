@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="hilo.js"></script>
+    <title>HiLo Game</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href="hilo.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" id="head">
+        <h1>Sean and Josh's Baller Hi Lo Game</h1>
+      </div>
+      <div class = "col-sm-12-scoreboard">
+        <div class = "col-sm-6">Wins
+        <p id="outputWin">
+          ..
+        </p>
+      </div>
+        <div class = "col-sm-6">Losses</div>
+        <p id="outputLoss">
+          ..
+        </p>
+      </div>
+      <div class="col-sm-12" id="output">
+        <h2 id="outputText" class="text-center text-middle"> Let's play dawg! </h2>
+      </div>
+      <div class="col-sm-12">
+        <input id="userGuess" type="text" onkeypress="enter(event)"/>
+        <input class="btn" type="button" value="Guess!" onclick="hiLo()"/>
+        <input class="btn" type="button" value="Try again?" onclick="newNum()"/>
+      </div>
+    </div>
+  </body>
+</html>

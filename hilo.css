@@ -1,0 +1,30 @@
+body {
+  text-align:center;
+  background-color: #115A86;
+  color: white;
+}
+
+#output {
+  height: 400px;
+}
+
+#outputText {
+  font-size: 72pt;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.btn {
+  background-color: black;
+  color: white;
+}
+
+.jumbotron {
+  background-color: #D27B11;
+}
+
+#userGuess {
+  background-color: white;
+  color: black;
+}
